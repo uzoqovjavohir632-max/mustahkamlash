@@ -135,30 +135,152 @@
 
   # 8-misol
 #BankHisob klassi: egasi, balans, pul_qoshish() va pul_yechish() methodlari 
+# class Bank_hisobi():
+#     def __init__(self, egasi , balans ):
+#       self. egasi = egasi 
+#       self. balans = balans 
+
+#     def pul_qoshish(self ):
+#           n=float(input ("qo'shiladigan summanni kiriting :"))
+#           self. balans = self.balans + n 
+#           return self. balans 
+    
+#     def pul_yechish(self  ):
+#         summa = float(input("yechiladigan summani kiriting: "))
+#         if summa <= self.balans :
+#             self.balans -= summa 
+#             return self.balans
+#         else :
+#             return "balans tetarli emas"
+
+    
+# egasi = input("Hisob egasini kiriting: ")
+# balans = float(input("Boshlang'ich balansni kiriting: "))
+# b = Bank_hisobi(egasi, balans, )  
+
+# print("jami hisob ", b.pul_qoshish())
+# print("pul ayirilgandan keyingi hisob" , b.pul_yechish())
 
 
 
 
-
-
-
-
-
-    # 9-misol
+   
+ # 9-misol
 # Harorat klassi: selsiy attributi, farengeytga() va kelvinega() o'giruvchi methodlar
-class Harorat:
-    def __init__(self, selsiy):
-        self.selsiy = selsiy
+# class Harorat:
+#     def __init__(self, selsiy):
+#         self.selsiy = selsiy
 
-    def farengeytga(self):
-        return (self.selsiy * 9/5) + 32
+#     def farengeytga(self):
+#         return (self.selsiy * 9/5) + 32
 
-    def kelvinega(self):
-        return self.selsiy + 273.15
+#     def kelvinega(self):
+#         return self.selsiy + 273
 
 
-temp = float(input("Selsiy haroratni kiriting: "))
-h = Harorat(temp)
+# temperatura = float(input("Selsiy haroratni kiriting: "))
+# h = Harorat(temperatura)
 
-print("Farengeyt:", h.farengeytga())
-print("Kelvin:", h.kelvinega())
+# print("Farengeyt:", h.farengeytga())
+# print("Kelvin:", h.kelvinega())
+
+
+  # 10-misol
+# Vaqt klassi: soat, daqiqa, soniya va korsatish(), soniyalarda() methodlari 
+# class Vaqt ():
+#   def __init__ (self , soat , daqiqa , soniya ):
+#     self. soat = soat 
+#     self. daqiqa = daqiqa 
+#     self. soniya= soniya
+
+#   def soniyalarda(self):
+#         jami_soniya = self.soat * 3600 + self.daqiqa * 60 + self.soniya
+#         return jami_soniya
+
+#   def korsatish (self):
+#     print("Kiritilgan vaqt:", self.soat, ":", self.daqiqa, ":", self.soniya)
+
+
+  
+# soat = int(input ("soatni kiriting: " ))
+# daqiqa = int(input ("daqiqani kiriting: " ))
+# soniya = int(input ("soniyani  kiriting: " ))
+# h = Vaqt(soat, daqiqa, soniya)
+
+# h.korsatish()
+# print("Jami soniyalarda:", h.soniyalarda())
+
+
+
+
+ # 11- misol 
+#Restoran klassi: nomi, turi, ochiq/yopiq holati, ochish(), yopish(), mijoz_qoshish() methodlari 
+# class Restoran:
+#     def __init__(self, nomi, turi):
+#         self.nomi = nomi
+#         self.turi = turi
+#         self.ochiq = False
+#         self.mijozlar_soni = 0
+
+#     def ochish(self):
+#         self.ochiq = True
+#         print(f"{self.nomi} restorani ochildi")
+
+#     def yopish(self):
+#         self.ochiq = False
+#         print(f"{self.nomi} restorani yopildi")
+
+#     def mijoz_qoshish(self):
+#         if self.ochiq:
+#             n = int(input("Nechta mijoz keldi? "))
+#             self.mijozlar_soni += n
+#             print(f"Jami mijozlar soni: {self.mijozlar_soni}")
+#         else:
+#             print("Restoran yopiq, mijoz qabul qilinmaydi")
+
+
+# nomi = input("Restoran nomini kiriting: ")
+# turi = input("Restoran turini kiriting: ")
+
+# r = Restoran(nomi, turi)
+# r.ochish()
+# r.mijoz_qoshish()
+# r.mijoz_qoshish()
+# r.yopish()
+
+
+#13 - misol 
+#Kutubxona klassi: kitob nomi, muallif, olingan/qaytarilgan holati, olish(), qaytarish() methodlari 
+# class Kutubxona:
+#     def __init__(self, nomi, muallif):
+#         self.nomi = nomi
+#         self.muallif = muallif
+#         self.olingan = 0  
+
+#     def olish(self):
+#         if self.olingan == 0:
+#             self.olingan = 1
+#             print("Kitob olindi")
+#         else:
+#             print("Kitob allaqachon olingan")
+
+#     def qaytarish(self):
+#         if self.olingan == 1:
+#             self.olingan = 0
+#             print("Kitob qaytarildi")
+#         else:
+#             print("Kitob hali olinmagan")
+
+# nomi = input("Kitob nomi: ")
+# muallif = input("Muallif: ")
+
+# k = Kutubxona(nomi, muallif)
+
+# k.olish()
+# k.qaytarish()
+
+
+
+
+
+
