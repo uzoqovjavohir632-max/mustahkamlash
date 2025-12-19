@@ -282,5 +282,87 @@
 
 
 
+# 14-misol
+#Savat klassi: mahsulotlar ro'yxati, narxlar, qoshish(), olib_tashlash(), jami() methodlari 
+
+# savat = {}
+# jami = 0
+
+# nom = input("Mahsulot nomini kiriting: ")
+# narx = int(input("Narxini kiriting: "))
+# savat[nom] = narx
+# jami = jami + narx
+
+# nom = input("Yana mahsulot nomini kiriting: ")
+# narx = int(input("Narxini kiriting: "))
+# savat[nom] = narx
+# jami = jami + narx
+
+# print("Jami summa:", jami)
+
+
+#15- misol
+# Xodim klassi: ism, lavozim, maosh, ish_kunlari, maosh_hisoblash(), bonus_qoshish() methodlari 
+
+
+# class Xodim:
+#     def __init__(self, ism, lavozim, maosh, ish_kunlari):
+#         self.ism = ism
+#         self.lavozim = lavozim
+#         self.maosh = maosh
+#         self.ish_kunlari = ish_kunlari
+
+#     def maosh_hisoblash(self):
+#         return self.maosh * self.ish_kunlari
+
+#     def bonus_qoshish(self, bonus):
+#         return self.maosh_hisoblash() + bonus
+
+# ism = input("Xodim ismi: ")
+# lavozim = input("Lavozimi: ")
+# maosh = int(input("Bir kunlik maosh: "))
+# ish_kunlari = int(input("Ishlagan kunlari: "))
+
+# x = Xodim(ism, lavozim, maosh, ish_kunlari)
+
+# print("Asosiy maosh:", x.maosh_hisoblash())
+
+# bonus = int(input("Bonus summasi: "))
+# print("Bonus bilan maosh:", x.bonus_qoshish(bonus))
+
+
+#  16 - misol 
+#  Qahramon klassi (o'yin): ism, soglom, kuch, daraja, hujum(), davolanish(), daraja_oshirish() methodlari 
+class Qahramon:
+    def __init__(self, ism, soglom, kuch, daraja):
+        self.ism = ism
+        self.soglom = soglom
+        self.kuch = kuch
+        self.daraja = daraja
+
+    def hujum(self):
+        print("Hujum qilindi, kuch:", self.kuch)
+
+    def davolanish(self):
+        self.soglom = self.soglom + 10
+        print("Sog‘lomlik oshdi:", self.soglom)
+
+    def daraja_oshirish(self):
+        self.daraja = self.daraja + 1
+        print("Daraja oshdi:", self.daraja)
+
+ism = input("Qahramon ismi: ")
+soglom = int(input("Sog‘lomlik: "))
+kuch = int(input("Kuch: "))
+daraja = int(input("Daraja: "))
+
+q = Qahramon(ism, soglom, kuch, daraja)
+
+q.hujum()
+q.davolanish()
+q.daraja_oshirish()
+
+
+
 
 
