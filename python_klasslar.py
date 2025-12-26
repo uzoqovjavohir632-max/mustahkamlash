@@ -302,7 +302,7 @@
 
 
 #15- misol
-# Xodim klassi: ism, lavozim, maosh, ish_kunlari, maosh_hisoblash(), bonus_qoshish() methodlari 
+#Xodim klassi: ism, lavozim, maosh, ish_kunlari, maosh_hisoblash(), bonus_qoshish() methodlari 
 
 
 # class Xodim:
@@ -333,34 +333,34 @@
 
 #  16 - misol 
 #  Qahramon klassi (o'yin): ism, soglom, kuch, daraja, hujum(), davolanish(), daraja_oshirish() methodlari 
-class Qahramon:
-    def __init__(self, ism, soglom, kuch, daraja):
-        self.ism = ism
-        self.soglom = soglom
-        self.kuch = kuch
-        self.daraja = daraja
+# class Qahramon:
+#     def __init__(self, ism, soglom, kuch, daraja):
+#         self.ism = ism
+#         self.soglom = soglom
+#         self.kuch = kuch
+#         self.daraja = daraja
 
-    def hujum(self):
-        print("Hujum qilindi, kuch:", self.kuch)
+#     def hujum(self):
+#         print("Hujum qilindi, kuch:", self.kuch)
 
-    def davolanish(self):
-        self.soglom = self.soglom + 10
-        print("Sog‘lomlik oshdi:", self.soglom)
+#     def davolanish(self):
+#         self.soglom = self.soglom + 10
+#         print("Sog‘lomlik oshdi:", self.soglom)
 
-    def daraja_oshirish(self):
-        self.daraja = self.daraja + 1
-        print("Daraja oshdi:", self.daraja)
+#     def daraja_oshirish(self):
+#         self.daraja = self.daraja + 1
+#         print("Daraja oshdi:", self.daraja)
 
-ism = input("Qahramon ismi: ")
-soglom = int(input("Sog‘lomlik: "))
-kuch = int(input("Kuch: "))
-daraja = int(input("Daraja: "))
+# ism = input("Qahramon ismi: ")
+# soglom = int(input("Sog‘lomlik: "))
+# kuch = int(input("Kuch: "))
+# daraja = int(input("Daraja: "))
 
-q = Qahramon(ism, soglom, kuch, daraja)
+# q = Qahramon(ism, soglom, kuch, daraja)
 
-q.hujum()
-q.davolanish()
-q.daraja_oshirish()
+# q.hujum()
+# q.davolanish()
+# q.daraja_oshirish()
 
 
 

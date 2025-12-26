@@ -65,6 +65,27 @@
 # print(sonlar)
 
 
-def kitoblar():
-  print ( "yashamoq ", " kitop")
-kitoblar()  
+# def kitoblar():
+#   print ( "yashamoq ", " kitop")
+# kitoblar()  
+
+
+
+
+# a =int(input("a sonni kiriting:  "))
+# if a % 2 == 0 :
+#     print("kiritilgan son juft ")
+# else:
+#     print("kirililgan son toq")    
+
+a =input("a sonni kiriting:  ")
+b =input("b sonni kiriting:  ")
+c=input("c sonni kiriting:  ")
+
+if a>b and a>c :
+    print("eng katta son" , a)
+elif b>a and b>c :
+    print("eng katta son " , b )
+elif c>a and c>b :
+    print("eng katta son",  c)
+       
