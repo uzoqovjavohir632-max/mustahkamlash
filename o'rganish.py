@@ -78,14 +78,16 @@
 # else:
 #     print("kirililgan son toq")    
 
-a =input("a sonni kiriting:  ")
-b =input("b sonni kiriting:  ")
-c=input("c sonni kiriting:  ")
+# a =input("a sonni kiriting:  ")
+# b =input("b sonni kiriting:  ")
+# c=input("c sonni kiriting:  ")
 
-if a>b and a>c :
-    print("eng katta son" , a)
-elif b>a and b>c :
-    print("eng katta son " , b )
-elif c>a and c>b :
-    print("eng katta son",  c)
+# if a>b and a>c :
+#     print("eng katta son" , a)
+# elif b>a and b>c :
+#     print("eng katta son " , b )
+# elif c>a and c>b :
+#     print("eng katta son",  c)
+
+
        

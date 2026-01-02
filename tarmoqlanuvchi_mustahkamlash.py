@@ -29,5 +29,5 @@ class maktab():
         self.qavatlar_soni= qavaytlar_soni
         self.sinflar_soni=sinflar_soni
         self.direktor_ismi= direktor_ismi
-        
+          
         
